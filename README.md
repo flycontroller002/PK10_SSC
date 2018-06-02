@@ -1,6 +1,4 @@
 # 飞单插件使用教程
-[TOC]
-
 
 ------
 
@@ -93,5 +91,5 @@ chrome下载地址:  [<i class="icon-download"></i> 点击下载](http://dl.pcon
 ![图11](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a898f6d4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY3NjIyNTldfQ==
+eyJoaXN0b3J5IjpbODg4MjI4NzQ3LC0xMjc2NzYyMjU5XX0=
 -->
