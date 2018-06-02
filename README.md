@@ -78,12 +78,20 @@ chrome下载地址:  [<i class="icon-download"></i> 点击下载](http://dl.pcon
 - 选择要飞单的游戏及**是否封盘后数据**
 
 ![图7](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a6edb45f.png)
+
 - 点击启动 ,系统自动监测大盘类型, 如未显示,参考 (<a href="#重要提醒">重要提醒</a>)
+
 ![图8](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6d7db8759.png)
+
 - **确保飞单插件一直在运作**
+
 - ![图9](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a76e1d1a.png)
+
 - 会员在手机中下单
+
 ![图10](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a818ea99.png)
+
 - 飞单成功样例
+
 ![图11](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a898f6d4.png)
 
