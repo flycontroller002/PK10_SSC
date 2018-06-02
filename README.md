@@ -56,18 +56,27 @@ chrome下载地址:  [<i class="icon-download"></i> 点击下载](http://dl.pcon
 <a href="#插件下载地址">插件下载地址</a>
 ## 安装插件
 - 打开右上角设置扩展中心
+
 ![图1](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a2abe050.png)
 - 拖拽下载的flyController-[版本].crx
+
 ![图2](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a339bce0.png)
+
 - 稍等10秒,安装成功图例 ,点击右上角启动插件
+
 ![图3](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a3fe4424.png)
 ## 启动飞单
 - 登录**<房主账号>**
+
 ![图4](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a52e9764.png)
 - 登录 **大盘** (例如: SGWIN 及 IDC)
+
 ![图5](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a5b8da3c.png)
+
 ![图6](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a63d4834.png)
+
 - 选择要飞单的游戏及**是否封盘后数据**
+
 ![图7](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a6edb45f.png)
 - 点击启动 ,系统自动监测大盘类型, 如未显示,参考 (<a href="#重要提醒">重要提醒</a>)
 ![图8](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6d7db8759.png)
