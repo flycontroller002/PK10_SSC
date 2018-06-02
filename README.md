@@ -1,6 +1,4 @@
 # 飞单插件使用教程
-[]
-
 ------
 
 # 插件下载地址
@@ -89,6 +87,6 @@ chrome下载地址:  [<i class="icon-download"></i> 点击下载](http://dl.pcon
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Nzg1MzY2NCwtMjg3MzA3NDQsMTU0NT
-I3MzU2MSwtMTI3Njc2MjI1OV19
+eyJoaXN0b3J5IjpbMTA0MTM4MDEwLC0yODczMDc0NCwxNTQ1Mj
+czNTYxLC0xMjc2NzYyMjU5XX0=
 -->
