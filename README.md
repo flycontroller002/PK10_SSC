@@ -56,9 +56,7 @@ chrome下载地址:  [<i class="icon-download"></i> 点击下载](http://dl.pcon
 
 ![图2](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a339bce0.png)
 
-- 稍等10秒,安装成功图例 ,点击右上角启动插件
-
-![图3](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a3fe4424.png)
+- 稍等10秒,安装成功图例 ,点击右上角启动插件![图3](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a3fe4424.png)
 ## 启动飞单
 - 登录**<房主账号>**
 
@@ -79,7 +77,7 @@ chrome下载地址:  [<i class="icon-download"></i> 点击下载](http://dl.pcon
 
 - **确保飞单插件一直在运作**
 
-- ![图9](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a76e1d1a.png)
+![图9](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a76e1d1a.png)
 
 - 会员在手机中下单
 
@@ -90,6 +88,6 @@ chrome下载地址:  [<i class="icon-download"></i> 点击下载](http://dl.pcon
 ![图11](http://dns.ying360.net/bug/Uploads/Picture/2018-05-28/5b0b6a898f6d4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwNTYwMTg1LDE1NDUyNzM1NjEsLTEyNz
+eyJoaXN0b3J5IjpbLTI4NzMwNzQ0LDE1NDUyNzM1NjEsLTEyNz
 Y3NjIyNTldfQ==
 -->
