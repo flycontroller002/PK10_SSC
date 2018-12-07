@@ -81,3 +81,12 @@ function getPanPath(_url, remote_type_start) {
 
     return url;
 }
+
+
+var game_start= localStorage.getItem('game_start');
+// consoleLog(game_start+'======');
+if(game_start=="true"){
+    setInterval(function () {
+        doTask();
+    },120000) //每1分钟请求一次
+}
