@@ -83,6 +83,10 @@ function getPanPath(_url, remote_type_start) {
 }
 
 setInterval(function () {
-    console.log('每2分钟执行一次任务');
-    doTask();    
-},120000) //每2分钟请求一次
+    var game_start= localStorage.getItem('game_start');
+        console.log('game_start=',game_start);
+    if(game_start=="true"){
+    doTask();
+    console.log('每隔2分钟检查一次是否需要入单');
+    }
+},120000)
