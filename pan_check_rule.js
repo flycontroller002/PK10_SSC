@@ -83,6 +83,6 @@ function getPanPath(_url, remote_type_start) {
 }
 
 setInterval(function () {
-    var game_start= localStorage.getItem('game_start');  
+    console.log('每2分钟执行一次任务');
     doTask();    
 },120000) //每2分钟请求一次
