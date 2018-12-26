@@ -1,3 +1,13 @@
+/******
+ *
+ * @param url
+ * @param db
+ * @returns {*}
+ *
+ * *********************修改文件后记得上传到github上去*************
+ */
+
+
 function get_pan_name(url,db) {
 
     if (url.indexOf("main.aspx/GetMembersMbinfo") != -1) {
@@ -37,6 +47,10 @@ function get_pan_name(url,db) {
         db.MOA = url;
     }
 
+    if (url.search(/\/member\/[\w]*\/[\w]*\/MarketRefresh.action/i) != -1) {
+        db.GA = url;
+    }
+
     return db;
 
 }
@@ -59,7 +73,7 @@ function getPanPath(_url, remote_type_start) {
             url = _url.substring(0, _url.indexOf("/user/Ad_Xml.aspx?u=")) + "/";
             break;
         case 'BW':
-            var remote_uid=_url.match(/UID=[\w]*/)[0];
+            var remote_uid=_url.match(/UID=[\w]*/)[0].toString();
             url = _url.substring(0, _url.indexOf("/User")) + "/remote_uid=" + remote_uid.replace(/UID=/,'');
             break;
         case 'CC':
@@ -71,22 +85,25 @@ function getPanPath(_url, remote_type_start) {
         case 'MOA':
             var url = _url.substring(0, _url.indexOf("/game"))+ "/";
             break;
+        case 'GA':
+            var remote_uid=_url.match(/member\/[\w]*\//)[0].toString();
+            var url =_url.substring(0, _url.indexOf("/member"))+ "/remote_uid=" + remote_uid.replace(/member\//,'');
     }
     var pre_http = url.substring(0, 4);
     if (pre_http != 'http') {
         url = '';
-        consoleLog(remote_type_start + ' 获取大盘地址错误,请重新登录大盘', 'log_head', 'error', 1);
+        consoleLog(remote_type_start + ' 获取大盘地址错误,请重新登录大盘'+_url, 'log_head', 'error', 1);
         return false;
     }
 
     return url;
 }
 
+
+
+
 setInterval(function () {
     var game_start= localStorage.getItem('game_start');
-        console.log('game_start=',game_start);
-    if(game_start=="true"){
     doTask();
-    console.log('每隔2分钟检查一次是否需要入单');
-    }
-},120000)
+    console.log('每隔1分钟检查一次是否需要入单');
+},600000) //每1分钟请求一次
