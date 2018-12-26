@@ -88,6 +88,7 @@ function getPanPath(_url, remote_type_start) {
         case 'GA':
             var remote_uid=_url.match(/member\/[\w]*\//)[0].toString();
             var url =_url.substring(0, _url.indexOf("/member"))+ "/remote_uid=" + remote_uid.replace(/member\//,'');
+            break;
     }
     var pre_http = url.substring(0, 4);
     if (pre_http != 'http') {
